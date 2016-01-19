@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+/*! @brief Controls the app life cycle. */
+@interface SGAppDelegate : UIResponder <UIApplicationDelegate>
 
+/*! @brief The core window. */
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

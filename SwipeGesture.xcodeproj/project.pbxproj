@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		53DEC7CF1C4DF31B0069B2D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DEC7CE1C4DF31B0069B2D1 /* main.m */; };
-		53DEC7D21C4DF31B0069B2D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DEC7D11C4DF31B0069B2D1 /* AppDelegate.m */; };
-		53DEC7D51C4DF31B0069B2D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DEC7D41C4DF31B0069B2D1 /* ViewController.m */; };
+		53DEC7D21C4DF31B0069B2D1 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DEC7D11C4DF31B0069B2D1 /* SGAppDelegate.m */; };
+		53DEC7D51C4DF31B0069B2D1 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DEC7D41C4DF31B0069B2D1 /* SGViewController.m */; };
 		53DEC7D81C4DF31B0069B2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DEC7D61C4DF31B0069B2D1 /* Main.storyboard */; };
 		53DEC7DA1C4DF31B0069B2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DEC7D91C4DF31B0069B2D1 /* Assets.xcassets */; };
 		53DEC7DD1C4DF31B0069B2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DEC7DB1C4DF31B0069B2D1 /* LaunchScreen.storyboard */; };
@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		53DEC7CA1C4DF31B0069B2D1 /* SwipeGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DEC7CE1C4DF31B0069B2D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		53DEC7D01C4DF31B0069B2D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		53DEC7D11C4DF31B0069B2D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		53DEC7D31C4DF31B0069B2D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		53DEC7D41C4DF31B0069B2D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53DEC7D01C4DF31B0069B2D1 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		53DEC7D11C4DF31B0069B2D1 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		53DEC7D31C4DF31B0069B2D1 /* SGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGViewController.h; sourceTree = "<group>"; };
+		53DEC7D41C4DF31B0069B2D1 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
 		53DEC7D71C4DF31B0069B2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53DEC7D91C4DF31B0069B2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53DEC7DC1C4DF31B0069B2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,10 +81,8 @@
 		53DEC7CC1C4DF31B0069B2D1 /* SwipeGesture */ = {
 			isa = PBXGroup;
 			children = (
-				53DEC7D01C4DF31B0069B2D1 /* AppDelegate.h */,
-				53DEC7D11C4DF31B0069B2D1 /* AppDelegate.m */,
-				53DEC7D31C4DF31B0069B2D1 /* ViewController.h */,
-				53DEC7D41C4DF31B0069B2D1 /* ViewController.m */,
+				53DEC7F41C4DF3510069B2D1 /* Commons */,
+				53DEC7F21C4DF33B0069B2D1 /* Controllers */,
 				53DEC7D61C4DF31B0069B2D1 /* Main.storyboard */,
 				53DEC7D91C4DF31B0069B2D1 /* Assets.xcassets */,
 				53DEC7DB1C4DF31B0069B2D1 /* LaunchScreen.storyboard */,
@@ -109,6 +107,24 @@
 				53DEC7E91C4DF31B0069B2D1 /* Info.plist */,
 			);
 			path = SwipeGestureTests;
+			sourceTree = "<group>";
+		};
+		53DEC7F21C4DF33B0069B2D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53DEC7D31C4DF31B0069B2D1 /* SGViewController.h */,
+				53DEC7D41C4DF31B0069B2D1 /* SGViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		53DEC7F41C4DF3510069B2D1 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				53DEC7D01C4DF31B0069B2D1 /* SGAppDelegate.h */,
+				53DEC7D11C4DF31B0069B2D1 /* SGAppDelegate.m */,
+			);
+			name = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +171,7 @@
 		53DEC7C21C4DF31B0069B2D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SG;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Data Empire";
 				TargetAttributes = {
@@ -213,8 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DEC7D51C4DF31B0069B2D1 /* ViewController.m in Sources */,
-				53DEC7D21C4DF31B0069B2D1 /* AppDelegate.m in Sources */,
+				53DEC7D51C4DF31B0069B2D1 /* SGViewController.m in Sources */,
+				53DEC7D21C4DF31B0069B2D1 /* SGAppDelegate.m in Sources */,
 				53DEC7CF1C4DF31B0069B2D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

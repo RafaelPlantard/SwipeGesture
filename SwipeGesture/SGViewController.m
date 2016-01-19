@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SGViewController.h"
 
-@interface ViewController ()
+@interface SGViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SGViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
