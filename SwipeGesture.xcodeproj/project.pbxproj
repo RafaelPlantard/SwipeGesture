@@ -63,9 +63,9 @@
 		53DEC7C11C4DF31B0069B2D1 = {
 			isa = PBXGroup;
 			children = (
+				53DEC7CB1C4DF31B0069B2D1 /* Products */,
 				53DEC7CC1C4DF31B0069B2D1 /* SwipeGesture */,
 				53DEC7E61C4DF31B0069B2D1 /* SwipeGestureTests */,
-				53DEC7CB1C4DF31B0069B2D1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +83,11 @@
 			children = (
 				53DEC7F41C4DF3510069B2D1 /* Commons */,
 				53DEC7F21C4DF33B0069B2D1 /* Controllers */,
-				53DEC7D61C4DF31B0069B2D1 /* Main.storyboard */,
-				53DEC7D91C4DF31B0069B2D1 /* Assets.xcassets */,
-				53DEC7DB1C4DF31B0069B2D1 /* LaunchScreen.storyboard */,
-				53DEC7DE1C4DF31B0069B2D1 /* Info.plist */,
 				53DEC7CD1C4DF31B0069B2D1 /* Supporting Files */,
+				53DEC7D91C4DF31B0069B2D1 /* Assets.xcassets */,
+				53DEC7DE1C4DF31B0069B2D1 /* Info.plist */,
+				53DEC7DB1C4DF31B0069B2D1 /* LaunchScreen.storyboard */,
+				53DEC7D61C4DF31B0069B2D1 /* Main.storyboard */,
 			);
 			path = SwipeGesture;
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 			children = (
 				53DEC7CE1C4DF31B0069B2D1 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		53DEC7E61C4DF31B0069B2D1 /* SwipeGestureTests */ = {
 			isa = PBXGroup;
 			children = (
-				53DEC7E71C4DF31B0069B2D1 /* SwipeGestureTests.m */,
 				53DEC7E91C4DF31B0069B2D1 /* Info.plist */,
+				53DEC7E71C4DF31B0069B2D1 /* SwipeGestureTests.m */,
 			);
 			path = SwipeGestureTests;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 				53DEC7D31C4DF31B0069B2D1 /* SGViewController.h */,
 				53DEC7D41C4DF31B0069B2D1 /* SGViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		53DEC7F41C4DF3510069B2D1 /* Commons */ = {
@@ -124,7 +124,7 @@
 				53DEC7D01C4DF31B0069B2D1 /* SGAppDelegate.h */,
 				53DEC7D11C4DF31B0069B2D1 /* SGAppDelegate.m */,
 			);
-			name = Commons;
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +261,7 @@
 				53DEC7D71C4DF31B0069B2D1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		53DEC7DB1C4DF31B0069B2D1 /* LaunchScreen.storyboard */ = {
@@ -269,6 +270,7 @@
 				53DEC7DC1C4DF31B0069B2D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -421,6 +423,7 @@
 				53DEC7EE1C4DF31B0069B2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53DEC7EF1C4DF31B0069B2D1 /* Build configuration list for PBXNativeTarget "SwipeGestureTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +432,7 @@
 				53DEC7F11C4DF31B0069B2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
